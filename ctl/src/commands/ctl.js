@@ -3,7 +3,16 @@ const command = {
   run: async toolbox => {
     const { print } = toolbox
 
-    print.info('Welcome to your CLI')
+    print.success('BEM VINDO À CLI DO COTIL')
+    print.info("")
+    print.info('#####   ######   #')
+    print.info('#         ##     #')
+    print.info('#         ##     #')
+    print.info('#         ##     #')
+    print.info('#####     ##     #####')
+    print.info("")
+    print.info("")
+    print.warning('Digite "ctl -h" para accessar todos os comandos disponíveis')
   }
 }
 
