@@ -6,6 +6,7 @@ module.exports = {
     run: async toolbox => {
         const {
             parameters,
+            template,
             print: { success, error, info }
         } = toolbox
   
