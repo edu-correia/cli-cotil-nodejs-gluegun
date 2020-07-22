@@ -1,6 +1,7 @@
 module.exports = {
     name: 'generate:bootstrap',
     alias: ['g:b'],
+    description: "Gera um arquivo HTML pronto para o desenvolvimento com Bootstrap",
     run: async toolbox => {
       const {
         parameters,

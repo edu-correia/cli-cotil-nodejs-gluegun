@@ -3,6 +3,7 @@ const arr = require('../uteis/professores');
 module.exports = {
     name: 'profs',
     alias: ['p'],
+    description: "Mostra uma listagem dos professores e seus respectivos emails e sites.",
     run: async toolbox => {
         const {
             parameters,

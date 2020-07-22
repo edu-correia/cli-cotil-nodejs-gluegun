@@ -1,8 +1,9 @@
 const downloads = require('../uteis/downloads');
 
 module.exports = {
-    name: 'downloads',
+    name: 'download',
     alias: ['d'],
+    description: "Mostra os links dos programas e Ide's usados no curso.",
     run: async toolbox => {
         const {
             parameters,

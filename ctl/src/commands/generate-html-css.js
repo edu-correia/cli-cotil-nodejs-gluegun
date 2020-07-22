@@ -1,6 +1,7 @@
 module.exports = {
     name: 'generate:html-css',
     alias: ['g:hc'],
+    description: "Cria uma pasta com um arquivo index.html e style.css.",
     run: async toolbox => {
       const {
         parameters,

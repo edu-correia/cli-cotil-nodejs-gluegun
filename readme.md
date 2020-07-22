@@ -1,4 +1,4 @@
-<p align="center"><h1>CLI Cotil</h1></p>
+<h1 align="center">CLI Cotil</h1>
 
 ### :clipboard: Descrição:
 

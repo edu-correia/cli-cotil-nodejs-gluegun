@@ -1,6 +1,7 @@
 module.exports = {
     name: 'mysql',
     alias: ['m'],
+    description: "Cria um arquivo .bat que acessa o banco de dados fornecido pela escola.",
     run: async toolbox => {
         const {
             parameters,

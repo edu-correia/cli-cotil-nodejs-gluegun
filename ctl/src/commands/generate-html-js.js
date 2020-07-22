@@ -1,6 +1,7 @@
 module.exports = {
     name: 'generate:html-js',
     alias: ['g:hj'],
+    description: "Cria uma pasta com index.html, style.css e script.js",
     run: async toolbox => {
       const {
         parameters,

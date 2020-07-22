@@ -1,7 +1,8 @@
 module.exports = {
-  name: 'generate:html',
-  alias: ['g:h'],
-  run: async toolbox => {
+    name: 'generate:html',
+    alias: ['g:h'],
+    description: "Gera um arquivo HTML simples para iniciantes",
+    run: async toolbox => {
     const {
       parameters,
       template,
