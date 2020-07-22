@@ -14,7 +14,7 @@ module.exports = {
   
       if(!name){
           error("Por favor informe o nome de sua aplicação");
-          info("Exemplo: cli-test generate:bootstrap <nome_do_arquivo>")
+          info("Exemplo: ctl generate:bootstrap <nome_do_arquivo>")
           return;
       }
   

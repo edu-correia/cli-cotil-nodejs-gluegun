@@ -15,7 +15,7 @@ module.exports = {
   
       if(!name){
           error("Por favor informe o nome de sua aplicação");
-          info("Exemplo: cli-test generate:html-css <nome_do_arquivo>")
+          info("Exemplo: ctl generate:html-css <nome_do_arquivo>")
           return;
       }
   

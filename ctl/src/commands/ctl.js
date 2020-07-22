@@ -12,7 +12,7 @@ const command = {
     print.info('#####     ##     #####')
     print.info("")
     print.info("")
-    print.warning('Digite "ctl -h" para accessar todos os comandos disponíveis')
+    print.warning('Digite "ctl help" para accessar todos os comandos disponíveis')
   }
 }
 

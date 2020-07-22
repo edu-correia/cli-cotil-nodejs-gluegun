@@ -24,13 +24,11 @@ module.exports = {
             generateHtmlCss
         ];
 
-        success("Comandos:");
-        info("");
+        success("Comandos:\n\n");
         
         for(let value of arrDeComandos){
             warning(`${value.name} - ( ${(value.alias[0]).toUpperCase()} )`);
-            warning(`Descrição: ${value.description}`,);
-            info('');
+            warning(`Descrição: ${value.description} \n`);
         }
     }
 }
