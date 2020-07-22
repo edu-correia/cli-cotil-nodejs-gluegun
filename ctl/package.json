@@ -1,8 +1,7 @@
 {
-  "name": "ctl",
+  "name": "ctl-cotil-cli",
   "version": "0.0.1",
   "description": "ctl CLI",
-  "private": true,
   "bin": {
     "ctl": "bin/ctl"
   },

@@ -1,7 +1,7 @@
 module.exports = {
     name: 'generate:c',
     alias: ['g:c'],
-    description: "Gera um arquivo HTML simples para iniciantes",
+    description: 'Gera um arquivo "Main.c" simples',
     run: async toolbox => {
     const {
       template,
