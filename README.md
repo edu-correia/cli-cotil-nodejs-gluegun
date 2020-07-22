@@ -1,2 +1,3 @@
-# cli-cotil-nodejs-gluegun
- CLI feito para as aulas no Cotil
+CLI
+
+Docs: [Gluegun](https://github.com/infinitered/gluegun/tree/master/docs)
