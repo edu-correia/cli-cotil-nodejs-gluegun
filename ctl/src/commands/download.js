@@ -12,10 +12,12 @@ module.exports = {
         const name = parameters.first;
 
         if(!name){
+            success('Downloads');
+            info("-------------------------------------------------")
             for(let index of downloads){
-                info("-------------------------------------------------")
                 info(`${index.name}  |  ${index.link}`)
             }
+            info("-------------------------------------------------")
             return;
         }
     }
