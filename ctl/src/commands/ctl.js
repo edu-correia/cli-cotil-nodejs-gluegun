@@ -1,5 +1,5 @@
 const command = {
-  name: 'cli-test',
+  name: 'ctl',
   run: async toolbox => {
     const { print } = toolbox
 

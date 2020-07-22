@@ -1,10 +1,10 @@
 {
-  "name": "cli-test",
+  "name": "ctl",
   "version": "0.0.1",
-  "description": "cli-test CLI",
+  "description": "ctl CLI",
   "private": true,
   "bin": {
-    "cli-test": "bin/cli-test"
+    "ctl": "bin/ctl"
   },
   "scripts": {
     "format": "prettier --write **/*.{js,json} && standard --fix",

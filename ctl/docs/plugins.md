@@ -1,10 +1,10 @@
-# Plugin guide for cli-test
+# Plugin guide for ctl
 
-Plugins allow you to add features to cli-test, such as commands and
+Plugins allow you to add features to ctl, such as commands and
 extensions to the `toolbox` object that provides the majority of the functionality
-used by cli-test.
+used by ctl.
 
-Creating a cli-test plugin is easy. Just create a repo with two folders:
+Creating a ctl plugin is easy. Just create a repo with two folders:
 
 ```
 commands/
@@ -42,6 +42,6 @@ This is then accessible in your plugin's commands as `toolbox.bar`.
 
 # Loading a plugin
 
-To load a particular plugin (which has to start with `cli-test-*`),
-install it to your project using `npm install --save-dev cli-test-PLUGINNAME`,
-and cli-test will pick it up automatically.
+To load a particular plugin (which has to start with `ctl-*`),
+install it to your project using `npm install --save-dev ctl-PLUGINNAME`,
+and ctl will pick it up automatically.

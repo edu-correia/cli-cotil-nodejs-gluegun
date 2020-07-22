@@ -1,3 +1,3 @@
-# Command Reference for cli-test
+# Command Reference for ctl
 
 TODO: Add your command reference here
