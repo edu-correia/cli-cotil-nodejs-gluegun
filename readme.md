@@ -32,7 +32,7 @@ $ yarn global add ctl-cotil-cli
   **_Comando_**  | **_Alias_**     | **_Funcionalidade_** | **_Parâmetros_** | **_Funç do parâmetro_**
   -------------- | --------------- | -------------------- | ---------------- | ---------------------------------
   download | d | Mostra os downloads dos programas usadas no curso | 0 | ---
-  mysql | m | Cria um arquivo ".bat"(executável) para acessar o bano de dados | 1 | 1-RA do aluno
+  mysql | m | Cria um arquivo ".bat"(executável) para acessar o banco de dados | 1 | 1-RA do aluno
   profs | p | Mostra os professores e seus respectivos contatos | 1 (Opcional) | 1-Nome de um professor
   generate:html  | g:h             | Gera um arquivo HTML | 2                | 1-Nome do arquivo / 2-Nome da pasta
   generate:html-css | g:hc | Gera um arquivo HTML e CSS | 1 | 1-Nome do arquivo HTML
